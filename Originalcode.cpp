@@ -2,7 +2,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-	int n,h,a[100000],seq,index=0,flag=0;
+	int n,h,a[100000],seq=1,index=0,flag=0;
 	int temp=0;
 	cin >> n >> h;
 	for(int i=0;i<n;i++){
