@@ -29,7 +29,7 @@ int main(){
 		
 		if(seq==3){
 			if(a[index]>0&&temp==0){
-				temp == 1;
+				temp=1;
 				a[index]--;
 			}
 				
@@ -41,7 +41,7 @@ int main(){
 			if(temp>0){
 			
 			if(temp + a[index] <= h ){
-				temp==0;
+				temp=0;
 				a[index]++;
 			}
 		}
