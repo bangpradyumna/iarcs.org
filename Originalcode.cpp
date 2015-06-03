@@ -20,7 +20,7 @@ int main(){
 		
 		// move right
 		if(seq==2){
-			if(index<n){
+			if(index<n-1){
 				index=index+1;
 			}
 		}
